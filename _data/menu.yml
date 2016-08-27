@@ -1,0 +1,13 @@
+- title: "About"
+  href: "/"
+
+- title: "Blog"
+  href: "/blog/"
+
+- title: "Research"
+  href: "/research/"
+  subcategories:
+    - subtitle: "Projects"
+      subhref: "/research/projects/"
+    - subtitle: "Publications"
+      subhref: "/research/publications/"
