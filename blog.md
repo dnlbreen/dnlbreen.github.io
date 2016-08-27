@@ -4,8 +4,7 @@ title: Blog
 permalink: /blog/
 ---
 
-A collection of some of my thoughts that I've penned!
-
+I prefer to share most of my thoughts on Facebook, but here are a few others.
 
 <ul class="listing">
 {% for post in site.posts %}

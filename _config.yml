@@ -22,6 +22,7 @@ twitter_username: dnlbreen
 github_username:  dnlbreen
 facebook_username: dnlbreen
 linkedin_username: dnlbreen
+disqus_username: disqus_2zuse3wdyy
 
 # Build settings
 markdown: kramdown
@@ -29,3 +30,31 @@ markdown: kramdown
 # Other Options
 permalink: blog/:year/:month/:title/
 excerpt_separator: "<!--more-->"
+
+scholar:
+  style: apa
+  locale: en
+
+  sort_by: none
+  order: ascending
+
+  group_by: none
+  group_order: ascending
+
+  source: ./_bibliography
+  bibliography: references.bib
+  bibliography_template: "{{reference}}"
+
+  replace_strings: true
+  join_strings:    true
+
+  use_raw_bibtex_entry: false
+  bibtex_filters:
+  - superscript
+  - latex
+
+  details_dir:    bibliography
+  details_layout: bibtex.html
+  details_link:   Details
+
+  query: "@*"

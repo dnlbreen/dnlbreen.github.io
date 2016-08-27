@@ -2,16 +2,9 @@
 layout: default
 ---
 
-<!-- {% include image.html url="/images/teaching.jpg" caption="Daniel Breen" width=275 align="right" %} -->
+<!-- {% include image.html url="/images/teaching.jpg" caption="Daniel Breen" width=200 align="right" %} -->
 
-<table width="275px;" border="0" align="right">
-<tr>
-<th scope="row"><right><a href="/images/teaching.jpg" target="_blank"><img src="images/teaching.jpg" alt="Daniel Breen" style="width:275px;" align="right"></a></right></th>
-</tr>
-<tr>
-<th scope="row"><right><a href="http://www.ucsd.edu/" target="_blank"><img src="images/ucsd.jpg" alt="UCSD" style="width:275px;" align="right"></a></right></th>
-</tr>
-</table>
+<a href="/images/teaching.jpg" target="_blank"><img src="images/teaching.jpg" alt="Daniel Breen" style="width:250px;" align="right"></a>
 
 # Daniel Breen
 Ph.D. Student, Physics <br>
