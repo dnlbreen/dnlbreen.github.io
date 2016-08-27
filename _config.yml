@@ -1,0 +1,60 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Daniel Breen
+email: dnlbreen@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+ 
+  Website Under Construction
+ 
+avatar: https://www.nps.gov/yose/planyourvisit/images/dr-tunnel-view-pp-bigweb_1.jpg
+ 
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://danielbreen.net" # the base hostname & protocol for your site
+future: true
+
+twitter_username: dnlbreen
+github_username:  dnlbreen
+facebook_username: dnlbreen
+linkedin_username: dnlbreen
+disqus_username: disqus_2zuse3wdyy
+
+# Build settings
+markdown: kramdown
+
+# Other Options
+permalink: blog/:year/:month/:title/
+excerpt_separator: "<!--more-->"
+
+scholar:
+  style: apa
+  locale: en
+
+  sort_by: none
+  order: ascending
+
+  group_by: none
+  group_order: ascending
+
+  source: ./_bibliography
+  bibliography: references.bib
+  bibliography_template: "{{reference}}"
+
+  replace_strings: true
+  join_strings:    true
+
+  use_raw_bibtex_entry: false
+  bibtex_filters:
+  - superscript
+  - latex
+
+  details_dir:    bibliography
+  details_layout: bibtex.html
+  details_link:   Details
+
+  query: "@*"
