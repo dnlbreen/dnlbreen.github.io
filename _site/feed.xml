@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Daniel Breen</title>
+    <description>
+Website Under Construction
+</description>
+    <link>http://danielbreen.net/</link>
+    <atom:link href="http://danielbreen.net/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 26 Aug 2016 18:52:36 -0700</pubDate>
+    <lastBuildDate>Fri, 26 Aug 2016 18:52:36 -0700</lastBuildDate>
+    <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>Scripps Photo Album</title>
+        <description>&lt;p&gt;I hired a photographer to take some portraits in the area around Scripps Institution of Oceanography. There are a lot of scenic places to see around La Jolla and San Diego, so there may be more of these coming in the future. I found the process fun and memorable and would recommend anyone with the money to consider posting on a local photography group’s Facebook page to find someone who is trying to build up their portfolio. You can usually find a bargain; around $100 for an hour is a reasonable budget price for a gig, in my opinion.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 24 Aug 2016 00:00:00 -0700</pubDate>
+        <link>http://danielbreen.net/blog/2016/08/Scripps-Photo-Album/</link>
+        <guid isPermaLink="true">http://danielbreen.net/blog/2016/08/Scripps-Photo-Album/</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
