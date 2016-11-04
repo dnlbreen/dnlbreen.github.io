@@ -1,14 +1,14 @@
 <ul class="menu">
-{% for daniel in site.data.menu %}
-    {% if daniel.subcategories != null %}
-    <li><a href="{{ daniel.href }}" class="page-link">{{ daniel.title }}</a>
+{% for subsite in site.data.menu %}
+    {% if subsite.subcategories != null %}
+    <li><a href="{{ subsite.href }}" class="page-link">{{ subsite.title }}</a>
     <ul class="sub-menu">
-    {% for subcategory in daniel.subcategories %}
+    {% for subcategory in subsite.subcategories %}
     <li><a href="{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a></li>
     {% endfor %}
     </ul>
     {% else %}
-     <li><a href="{{ daniel.href }}" class="page-link">{{ daniel.title }}</a>
+     <li><a href="{{ subsite.href }}" class="page-link">{{ subsite.title }}</a>
     {% endif %}
     </li>
     {% endfor %}

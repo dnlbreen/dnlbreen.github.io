@@ -7,7 +7,19 @@
 - title: "Research"
   href: "/research/"
   subcategories:
-    - subtitle: "Projects"
-      subhref: "/research/projects/"
     - subtitle: "Publications"
       subhref: "/research/publications/"
+      
+- title: "Projects"
+  href: "/projects/"
+  subcategories:
+    - subtitle: "Weightlifting Exercise Cleaning"
+      subhref: "/projects/cleaning_data_project/"
+    - subtitle: "Weightlifting Exercise Prediction"
+      subhref: "/projects/practical_machine_learning_project/"
+    - subtitle: "BRFSS Analysis"
+      subhref: "/projects/BRFSS_Statistics/"
+    - subtitle: "Hospital Outcome Ranker"
+      subhref: "/projects/programming_R_healthcare/"
+    - subtitle: "CLT and Inference"
+      subhref: "/projects/Inference_project/"
