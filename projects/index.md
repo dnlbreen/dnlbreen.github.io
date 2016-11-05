@@ -4,7 +4,29 @@ layout: default
 
 # Projects
 
-In my spare time, I like to parse data and draw insights from it. In related efforts, I've worked through some Coursera courses and am sharing this all here.
+In my spare time, I like to parse data and draw insights from it. In related efforts, I've worked through some Coursera courses and am sharing this all here. My projects in python are significantly better than projects in R. Prospective employers, please check those out first!
+
+## Visualizing Ethnic Cuisines App
+
+I created an app that you can find [here](https://lit-bastion-17263.herokuapp.com). It is written with Flask and deployed with Heroku. So far it is still a work in process.
+
+I was interested in finding what distinguishes ethnic cuisines from each other. I scraped recipes from foodnetwork.com and cleaned the ingredients lists. I created wordclouds for each ethnic cuisine, then I applied LDA to the full dataset (~200 MB) to detect patterns in the lists of recipes. I found that, at least with the data I presently have, around 5 categories appear which are robust and seem to correspond roughly to ingredients commonly found in Asian, Eastern European, Western European, and Mexican (or Latin American) dishes. Visualizations are available at the link provided.
+
+The next steps in the analysis are to apply tfidf to the sets of ingredients and attempt the LDA analysis again. Additionally, I would like to create a classifier which can assign ethnicity to user defined lists of ingredients. Since much of the data does not have an ethnicity assigned to it, I would like to create labels through LDA and build the classifier that way.
+
+## Data Science with Python
+
+We test whether university towns significantly different mean housing prices during recessions from non-university towns. We run a t-test to compare the ratio of the mean price of houses in university towns the quarter before the recession starts compared to the recession bottom. We find that university towns have a lower market loss during recessions. 
+
+The following data files are used in this project:
+
+From the Zillow research data site there is housing data for the United States. In particular the datafile for all homes at a city level has median home sale prices at a fine grained level.
+
+From the [Wikipedia page](https://en.wikipedia.org/wiki/List_of_college_towns) on college towns is a list of university towns in the United States which has been copy and pasted into the file university_towns.txt.
+
+From the Bureau of Economic Analysis, US Department of Commerce, the GDP over time of the United States in current dollars, in quarterly intervals. For this project, we only look at GDP data from the first quarter of 2000 onward.
+
+<a href="housing_prices_college_towns/index.html">Housing Prices in University Towns</a>
 
 ## Data Science with R
 
@@ -27,7 +49,3 @@ Health policy researchers and the media download the Hospital Compare database a
 <a href="programming_R_healthcare/index.html">Hospital Outcome Ranker</a> 
 
 <a href="Inference_project/index.html">Central Limit Theorem and Inference</a>
-
-## Data Science with Python
-
-Coming soon!

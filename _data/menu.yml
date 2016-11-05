@@ -13,6 +13,8 @@
 - title: "Projects"
   href: "/projects/"
   subcategories:
+    - subtitle: "Housing Prices in University Towns"
+      subhref: "/projects/housing_prices_college_towns/"
     - subtitle: "Weightlifting Exercise Cleaning"
       subhref: "/projects/cleaning_data_project/"
     - subtitle: "Weightlifting Exercise Prediction"
