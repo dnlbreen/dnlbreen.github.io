@@ -6,9 +6,6 @@
 
 - title: "Research"
   href: "/research/"
-  subcategories:
-    - subtitle: "Publications"
-      subhref: "/research/publications/"
       
 - title: "Projects"
   href: "/projects/"
