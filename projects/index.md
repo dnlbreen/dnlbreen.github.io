@@ -4,7 +4,7 @@ layout: default
 
 # Projects
 
-In my spare time, I like to parse data and draw insights from it. In related efforts, I've worked through some Coursera courses and am sharing this all here. My projects in python are significantly better than projects in R. Prospective employers, please check those out first!
+In my spare time, I like to parse data and draw insights from it. In related efforts, I've worked through some Coursera courses and am sharing this all here. Code is documented in the data science python and R projects.
 
 ## Visualizing Ethnic Cuisines App
 
@@ -28,7 +28,15 @@ From the Bureau of Economic Analysis, US Department of Commerce, the GDP over ti
 
 <a href="housing_prices_college_towns/index.html">Housing Prices in University Towns</a>
 
+In this project we access the twitter Application Programming Interface (API) using python. We estimate the public's perception (sentiment) of terms and phrases, and analyze the relationship between location and mood based on a sample of twitter data. We find the most commonly occurring terms in tweets in our corpus of data, the happiest US state, and the ten most common hashtags.
+
+<a href="housing_prices_college_towns/index.html">Analysis of Twitter Data</a>
+
 ## Data Science with R
+
+In this project, we work with data from the SeaFlow environmental flow cytometry instrument. We use a dataset that represents a 21 minute sample from the vessel in a file seaflow_21min.csv. This sample has been pre-processed to remove the calibration “beads” that are passed through the system for monitoring, as well as some other particle types. We put up plots showing clustering in the dataset and compare and visualize a decision tree, random forests, and a support vector machine in classifying the type of particle given a set of features.
+
+<a href="seaflow_cytometry/index.html">Seaflow Cytometry Analysis</a> 
 
 Using devices such as Jawbone Up, Nike FuelBand, and Fitbit it is now possible to collect a large amount of data about personal activity relatively inexpensively. These type of devices are part of the quantified self movement – a group of enthusiasts who take measurements about themselves regularly to improve their health, to find patterns in their behavior, or because they are tech geeks. One thing that people regularly do is quantify how much of a particular activity they do, but they rarely quantify how well they do it.
 
