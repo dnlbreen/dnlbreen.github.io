@@ -4,7 +4,7 @@ title: Blog
 permalink: /blog/
 ---
 
-I prefer to share most of my thoughts on Facebook, but here are a few others.
+I prefer to share most of my thoughts on Facebook, but I might post something on here from time to time.
 
 <ul class="listing">
 {% for post in site.posts %}
