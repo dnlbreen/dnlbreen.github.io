@@ -30,7 +30,7 @@ From the Bureau of Economic Analysis, US Department of Commerce, the GDP over ti
 
 In this project we access the twitter Application Programming Interface (API) using python. We estimate the public's perception (sentiment) of terms and phrases, and analyze the relationship between location and mood based on a sample of twitter data. We find the most commonly occurring terms in tweets in our corpus of data, the happiest US state, and the ten most common hashtags.
 
-<a href="housing_prices_college_towns/index.html">Analysis of Twitter Data</a>
+<a href="analysis_twitter_data/index.html">Analysis of Twitter Data</a>
 
 ## Data Science with R
 
