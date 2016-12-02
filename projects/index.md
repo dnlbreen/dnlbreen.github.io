@@ -6,6 +6,12 @@ layout: default
 
 In my spare time, I like to parse data and draw insights from it. In related efforts, I've worked through some Coursera courses and am sharing this all here. Code is documented in the data science python and R projects.
 
+## Altered Features in Alzheimer's Disease
+
+<a href="ca1_neuron_paper/index.html">Identifying Pathological Features and Mechanisms in Alzheimer's Disease</a>
+
+In this project I am using data assimilation which I have helped to develop to estimate models which can identify pathological features and mechanisms of voltage dynamics in neurons in Alzheimer's disease. You can find an early preprint which is a work in progress [here](ca1_neuron_paper/CA1_Neuron_Paper.pdf).
+
 ## Visualizing Ethnic Cuisines App
 
 I created an app that you can find [here](https://lit-bastion-17263.herokuapp.com). It is written with Flask and deployed with Heroku. So far it is still a work in process.

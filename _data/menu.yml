@@ -10,6 +10,8 @@
 - title: "Projects"
   href: "/projects/"
   subcategories:
+    - subtitle: "Altered Features in Alzheimer's Disease"
+      subhref: "/projects/ca1_neuron_paper/"
     - subtitle: "Housing Prices in University Towns"
       subhref: "/projects/housing_prices_college_towns/"
     - subtitle: "Analysis of Twitter Data"
